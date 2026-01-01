@@ -1,0 +1,89 @@
+button{
+    width: 52px;
+    height: 61px;
+    border: none;
+    padding:11px;
+    border-radius: 17px;
+    color: rgb(8, 126, 145);
+    background-color: rgba(209, 206, 206, 0.333);
+}
+button:hover{
+background-color: rgba(244, 235, 238, 0.804);
+color: #ffffff;
+}
+input{
+    
+    width: 450px;
+    height: 55px;
+    border: 2px solid rgb(0, 124, 143);
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 17px;
+    font-size: large;
+}
+input:focus{
+    border-color: rgb(207, 255, 239);
+}
+
+body{
+    font-family: "Cairo", sans-serif;
+    background: linear-gradient(to top, #4facfe, #00f2fe);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: rgb(144, 87, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body , html{
+    height: 100%;
+}
+.card{
+    width:540px;
+    height: 60px;
+    background: linear-gradient(to bottom, #ffffff 70%, #ffffff 30%);
+    opacity: 80%;
+    padding: 30px;
+    border-radius:17px;
+    border:7px solid  #43abd456;
+    display: flex;
+    
+}
+
+.card-content{
+    font-size:larger ;
+    font-weight: 600;
+    width:550px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.weather{
+    font-size: larger;
+}
+
+.flex{
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.humidity {
+    margin-top: 38px;
+    line-height: 0;
+    font-weight:600;
+}
+.wind{
+     margin-top: 57px;
+    line-height: 0;
+    font-weight:600;
+}
+.description{
+    margin-left: 8px;
+}
+
+.city , .temperature{
+    font-weight: 600;
+}
