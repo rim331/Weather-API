@@ -1,6 +1,5 @@
 
 async function get(city){
-     const apikey="3a9dbd059f69ed125eb5d94cb10699b9";
     const response = await fetch(" https://api.openweathermap.org/data/2.5/weather?q= "+ city +"&units=metric&appid=" + apikey);
  
     const data = await response.json()
@@ -49,6 +48,7 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event){
         search();
     }
 });
+
 
 
 
